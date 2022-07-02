@@ -4,8 +4,8 @@ local NotificationTheme = {
 	BackgroundColour = Color3.fromRGB(25, 25, 25),
 	SecondaryBackgroundColour = Color3.fromRGB(15, 15, 15),
 	Success = Color3.fromRGB(120, 175, 223),
-	Error = Color3.fromRGB(255, 150, 150),
-	Alert = Color3.fromRGB(253, 253, 150),
+	Error = Color3.fromRGB(120, 175, 223),
+	Alert = Color3.fromRGB(120, 175, 223),
 	
 	-- // Text Configuration
 	BodyFont = Enum.Font.SourceSans,
@@ -99,7 +99,7 @@ function NotificationTheme.returnBaseNotification(CustomTheme)
 	Body.TextWrapped = true
 	StatusColourLine.Name = "StatusColourLine"
 	StatusColourLine.Parent = Notification
-	StatusColourLine.BackgroundColor3 = Color3.fromRGB(199, 255, 174)
+	StatusColourLine.BackgroundColor3 = Color3.fromRGB(174, 226, 255)
 	StatusColourLine.BorderSizePixel = 0
 	StatusColourLine.Position = UDim2.new(0, 0, 0.349999994, 0)
 	StatusColourLine.Size = UDim2.new(0, 400, 0, 1)
